@@ -1,0 +1,119 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color:rgba(95, 68, 61, 0.979);
+}
+#container{
+	width: 1000px;
+	height: 0px;
+	margin: 150px auto;	
+}
+#calculator{
+	width: 260px;
+	height: 510px;
+    background-color: #a5d2fc;
+    margin: 0 auto;
+    top: -35px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+#result{
+    height: 120px;
+}
+
+h2{
+    text-align: center;
+}
+#history{
+    text-align: right;
+    height: 10px;
+    margin: 0 20px;
+    font-size: 15px;
+    color: black;
+}
+#output{
+    text-align: right;
+    height: 40px;
+    margin: 0px 20px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+
+}
+#keyboard{
+    height: 250px;
+}
+.operator, .number, .empty{
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.number, .empty{
+    background-color: #e5f553;
+}
+.operator{
+    background-color:black;
+    color: white;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.number:active, .operator:active{
+    font-size: 13px;
+}
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+button:nth-child(8){
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+button:nth-child(12){
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.ear {
+    width: 70px;
+    border-radius: 50% / 100% 100% 0% 0%;
+    position: absolute;
+}
+.left-ear {
+    top: 15px;
+    left: 420px;
+}
+.right-ear {
+    top: 15px;
+    left: 530px;
+}
+.ear-inner {
+    width: 50px;
+    height: 85px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    border-radius: 50% / 100% 100% 0% 0%;
+}
